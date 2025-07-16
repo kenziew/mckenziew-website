@@ -26,69 +26,69 @@ export default function AboutPage() {
               href="https://www.linkedin.com/in/mckenzie-white/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-[#0077B5] transition-colors group"
               title="LinkedIn"
             >
-              <FaLinkedin size={24} />
-              <span className="text-gray-400">LinkedIn</span>
+              <FaLinkedin size={24} className="group-hover:scale-110 transition-transform" />
+              <span className="text-gray-400 group-hover:text-[#0077B5]">LinkedIn</span>
             </a>
             <a
               href="https://github.com/kenziew"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors group"
               title="GitHub"
             >
-              <FaGithub size={24} />
-              <span className="text-gray-400">GitHub</span>
+              <FaGithub size={24} className="group-hover:scale-110 transition-transform" />
+              <span className="text-gray-400 group-hover:text-gray-900">GitHub</span>
             </a>
             <a
               href="https://x.com/_mckenziew"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 hover:text-blue-400 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-[#1DA1F2] transition-colors group"
               title="Twitter/X"
             >
-              <FaTwitter size={24} />
-              <span className="text-gray-400">Twitter/X</span>
+              <FaTwitter size={24} className="group-hover:scale-110 transition-transform" />
+              <span className="text-gray-400 group-hover:text-[#1DA1F2]">Twitter/X</span>
             </a>
             <a
               href="https://pubmed.ncbi.nlm.nih.gov/?term=McKenzie+S+White"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-[#326295] transition-colors group"
               title="PubMed"
             >
-              <SiPubmed size={24} />
-              <span className="text-gray-400">PubMed</span>
+              <SiPubmed size={24} className="group-hover:scale-110 transition-transform" />
+              <span className="text-gray-400 group-hover:text-[#326295]">PubMed</span>
             </a>
             <a
               href="mailto:kenzieswhite@gmail.com"
-              className="flex items-center gap-2 text-gray-600 hover:text-red-600 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors group"
               title="Email"
             >
-              <FaEnvelope size={24} />
-              <span className="text-gray-400">Email</span>
+              <FaEnvelope size={24} className="group-hover:scale-110 transition-transform" />
+              <span className="text-gray-400 group-hover:text-blue-600">Email</span>
             </a>
             <a
               href="https://profiles.stanford.edu/mckenzie-white"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 hover:text-red-600 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-[#8C1515] transition-colors group"
               title="Stanford Profile"
             >
-              <FaUniversity size={24} />
-              <span className="text-gray-400">Stanford Profile</span>
+              <FaUniversity size={24} className="group-hover:scale-110 transition-transform" />
+              <span className="text-gray-400 group-hover:text-[#8C1515]">Stanford Profile</span>
             </a>
             <a
               href="/Academic_CV_McKenzieWhite_forwebsite.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors"
+              className="flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors group"
               title="Download CV"
             >
-              <AiOutlineFilePdf size={24} />
-              <span className="text-gray-400">Download CV</span>
+              <AiOutlineFilePdf size={24} className="group-hover:scale-110 transition-transform" />
+              <span className="text-gray-400 group-hover:text-green-600">Download CV</span>
             </a>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default function AboutPage() {
         <div className="md:w-2/3">
           <h1 className="text-3xl font-bold mb-3">McKenzie White</h1>
           <p className="text-base leading-relaxed text-gray-700 mb-4">
-            I am a Postdoctoral Scholar in the <a href="https://med.stanford.edu/mimi.html" target="_blank" rel="noopener noreferrer">Machine Intelligence for Medical Imaging (<span className="text-blue-600 font-medium">MIMI</span>) Laboratory</a> at Stanford University. My work focuses on machine learning, medical imaging, and biomechanics, developing tools that bridge computational methods with musculoskeletal research and clinical care.
+            I am a Postdoctoral Scholar in the <a href="https://med.stanford.edu/mimi.html" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition-colors" style={{ color: '#1D63FF' }}>Machine Intelligence for Medical Imaging (<span className="font-medium" style={{ color: '#1D63FF' }}>MIMI</span>) Laboratory</a> at Stanford University. My work focuses on machine learning, medical imaging, and biomechanics, developing tools that bridge computational methods with musculoskeletal research and clinical care.
           </p>
           <p className="text-base leading-relaxed text-gray-700 mb-4">
             I earned my Master's in Biomedical Engineering from the University at Buffalo, where I played NCAA Women's Soccer, and my PhD from the University of Michigan focusing on neuromuscular adaptations following knee injuries using advanced imaging to assess muscle and joint function.
@@ -108,7 +108,7 @@ export default function AboutPage() {
           <div className="mt-6">
             <h2 className="text-2xl font-semibold mb-4">Education & Affiliations</h2>
             <ul className="space-y-6">
-              <li className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+              <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
                 <div className="flex items-center gap-10">
                   <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center">
                     <Image
@@ -126,7 +126,7 @@ export default function AboutPage() {
                   </div>
                 </div>
               </li>
-              <li className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+              <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
                 <div className="flex items-center gap-10">
                   <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center">
                     <Image
@@ -144,7 +144,7 @@ export default function AboutPage() {
                   </div>
                 </div>
               </li>
-              <li className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+              <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
                 <div className="flex items-center gap-10">
                   <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center">
                     <Image
@@ -162,7 +162,7 @@ export default function AboutPage() {
                   </div>
                 </div>
               </li>
-              <li className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+              <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
                 <div className="flex items-center gap-10">
                   <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center">
                     <Image

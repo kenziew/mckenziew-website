@@ -67,14 +67,16 @@ export default function RepositoriesPage() {
         {repos.map((repo) => (
           <div
             key={repo.name}
-            className="border rounded-lg p-6 hover:shadow-lg transition-shadow"
+            className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200"
+            style={{ borderLeft: '4px solid #1D63FF' }}
           >
             <h2 className="text-2xl font-semibold mb-2">
               <a
                 href={repo.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
+                className="hover:text-blue-700 transition-colors"
+                style={{ color: '#1D63FF' }}
               >
                 {repo.name}
               </a>
@@ -83,7 +85,7 @@ export default function RepositoriesPage() {
             <div className="flex items-center gap-4 text-sm text-gray-500">
               {repo.language && (
                 <span className="flex items-center">
-                  <span className="w-3 h-3 rounded-full bg-blue-500 mr-1"></span>
+                  <span className="w-3 h-3 rounded-full mr-1" style={{ backgroundColor: '#1D63FF' }}></span>
                   {repo.language}
                 </span>
               )}
