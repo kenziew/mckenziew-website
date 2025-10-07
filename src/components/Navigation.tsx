@@ -39,6 +39,9 @@ const Navigation = () => {
               <Link href="/papers" className="text-white/90 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white hover:text-white transition-all duration-200">
                 Academic Papers
               </Link>
+              <Link href="/consulting" className="text-white/90 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white hover:text-white transition-all duration-200">
+                Consulting
+              </Link>
               <Link href="/media" className="text-white/90 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-white hover:text-white transition-all duration-200">
                 Media
               </Link>
@@ -96,6 +99,13 @@ const Navigation = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Academic Papers
+          </Link>
+          <Link
+            href="/consulting"
+            className="block px-3 py-2 text-base font-medium text-white/90 hover:text-white hover:bg-white/10 transition-colors duration-200"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Consulting
           </Link>
           <Link
             href="/media"
