@@ -9,22 +9,18 @@ export default function ConsultingPage() {
         </p>
         
         <h2 className="text-xl font-semibold text-gray-800 mb-4">My expertise lies in:</h2>
-        <ul className="space-y-3 mb-6">
-          <li className="flex items-start">
-            <span className="text-2xl mr-3" style={{ color: '#1D63FF' }}>•</span>
-            <span className="text-lg text-gray-700"><strong>Medical & Imaging AI:</strong> Automated image segmentation, annotation, and quantitative analyses</span>
+        <ul className="list-disc list-inside space-y-3 mb-6 ml-2">
+          <li className="text-lg text-gray-700">
+            <strong>Medical & Imaging AI:</strong> Automated image segmentation, annotation, and quantitative analyses
           </li>
-          <li className="flex items-start">
-            <span className="text-2xl mr-3" style={{ color: '#1D63FF' }}>•</span>
-            <span className="text-lg text-gray-700"><strong>Big Data Workflows:</strong> Scalable pipelines for cleaning, merging, and analyzing large multi-modal datasets</span>
+          <li className="text-lg text-gray-700">
+            <strong>Big Data Workflows:</strong> Scalable pipelines for cleaning, merging, and analyzing large multi-modal datasets
           </li>
-          <li className="flex items-start">
-            <span className="text-2xl mr-3" style={{ color: '#1D63FF' }}>•</span>
-            <span className="text-lg text-gray-700"><strong>Custom Analytics:</strong> Advanced machine learning and visualizations to drive informed decisions</span>
+          <li className="text-lg text-gray-700">
+            <strong>Custom Analytics:</strong> Advanced machine learning and visualizations to drive informed decisions
           </li>
-          <li className="flex items-start">
-            <span className="text-2xl mr-3" style={{ color: '#1D63FF' }}>•</span>
-            <span className="text-lg text-gray-700"><strong>Process Automation:</strong> Streamlining repetitive tasks with AI and custom workflow automation to save time and reduce error</span>
+          <li className="text-lg text-gray-700">
+            <strong>Process Automation:</strong> Streamlining repetitive tasks with AI and custom workflow automation to save time and reduce error
           </li>
         </ul>
         
