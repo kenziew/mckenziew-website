@@ -165,13 +165,14 @@ export default function AboutPage() {
               </li>
               <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
                 <div className="flex items-center gap-10">
-                  <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center">
+                  <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center overflow-visible">
                     <Image
                       src="/logos/UB4.png"
                       alt="University at Buffalo Logo"
                       width={75}
                       height={50}
                       className="object-contain"
+                      style={{ transform: 'scale(1.2)' }}
                     />
                   </div>
                   <div>
@@ -183,13 +184,14 @@ export default function AboutPage() {
               </li>
               <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
                 <div className="flex items-center gap-10">
-                  <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center">
+                  <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center overflow-visible">
                     <Image
                       src="/logos/UB4.png"
                       alt="University at Buffalo Logo"
                       width={75}
                       height={50}
                       className="object-contain"
+                      style={{ transform: 'scale(1.2)' }}
                     />
                   </div>
                   <div>
