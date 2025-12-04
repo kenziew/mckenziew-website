@@ -128,12 +128,31 @@ export default function AboutPage() {
               </li>
               <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
                 <div className="flex items-center gap-10">
+                  <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center overflow-visible">
+                    <Image
+                      src="/logos/UK.png"
+                      alt="University of Kentucky Logo"
+                      width={70}
+                      height={70}
+                      className="object-contain"
+                      style={{ transform: 'scale(1.4)' }}
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-medium">University of Kentucky</h3>
+                    <p className="text-gray-600 mt-1">PostDoc, Department of Physical Therapy</p>
+                    <p className="text-gray-600 mt-1">2023 - 2024</p>
+                  </div>
+                </div>
+              </li>
+              <li className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200" style={{ borderLeft: '4px solid #1D63FF' }}>
+                <div className="flex items-center gap-10">
                   <div className="w-20 h-16 relative flex-shrink-0 flex items-center justify-center">
                     <Image
                       src="/logos/umich.png"
                       alt="University of Michigan Logo"
-                      width={60}
-                      height={60}
+                      width={80}
+                      height={80}
                       className="object-contain"
                     />
                   </div>
