@@ -158,7 +158,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium">University of Michigan</h3>
-                    <p className="text-gray-600 mt-1">PhD, School of Kinesiology</p>
+                    <p className="text-gray-600 mt-1">PhD in Movement Science</p>
                     <p className="text-gray-600 mt-1">2019 - 2023</p>
                   </div>
                 </div>
