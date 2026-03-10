@@ -4,7 +4,7 @@ export default function ConsultingPage() {
       <h1 className="text-4xl font-bold mb-8">Consulting</h1>
       
       <div className="bg-white rounded-lg shadow-md p-8" style={{ borderLeft: '4px solid #1D63FF' }}>
-        <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+        {/* <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           I help research groups, startups, and companies harness AI-driven methods to turn complex data into actionable insights. I develop comprehensive, high-performance data workflows and can support your team at any stage of the data lifecycle, from initial collection and processing through to final analysis.
         </p>
         
@@ -22,7 +22,7 @@ export default function ConsultingPage() {
           <li className="text-lg text-gray-700">
             <strong>Process Automation:</strong> Streamlining repetitive tasks with AI and custom workflow automation to save time and reduce error
           </li>
-        </ul>
+        </ul> */}
         
         <p className="text-lg text-gray-700">
           Please contact me with inquiries at <a href="mailto:kenzieswhite@gmail.com" className="hover:underline font-medium" style={{ color: '#1D63FF' }}>kenzieswhite@gmail.com</a>.
